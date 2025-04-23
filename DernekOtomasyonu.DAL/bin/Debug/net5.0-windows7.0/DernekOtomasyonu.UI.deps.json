@@ -1,0 +1,62 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "DernekOtomasyonu.UI/1.0.0": {
+        "dependencies": {
+          "DernekOtomasyonu.Bussiness": "1.0.0"
+        },
+        "runtime": {
+          "DernekOtomasyonu.UI.dll": {}
+        }
+      },
+      "DernekOtomasyonu.Bussiness/1.0.0": {
+        "dependencies": {
+          "DernekOtomasyonu.Entities": "1.0.0"
+        },
+        "runtime": {
+          "DernekOtomasyonu.Bussiness.dll": {}
+        }
+      },
+      "DernekOtomasyonu.Entities/1.0.0": {
+        "runtime": {
+          "DernekOtomasyonu.Entities.dll": {}
+        }
+      },
+      "DernekOtomasyonu.DAL/1.0.0.0": {
+        "runtime": {
+          "DernekOtomasyonu.DAL.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "DernekOtomasyonu.UI/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "DernekOtomasyonu.Bussiness/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "DernekOtomasyonu.Entities/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "DernekOtomasyonu.DAL/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
